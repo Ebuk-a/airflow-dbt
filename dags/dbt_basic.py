@@ -22,11 +22,11 @@ with DAG(
     catchup=False,
     default_args={
         "env": {
-            "DBT_USER": "{{ conn.postgres.login }}",
-            "DBT_ENV_SECRET_PASSWORD": "{{ conn.postgres.password }}",
-            "DBT_HOST": "{{ conn.postgres.host }}",
-            "DBT_SCHEMA": "{{ conn.postgres.schema }}",
-            "DBT_PORT": "{{ conn.postgres.port }}",
+            "DBT_USER": "postgres",
+            "DBT_ENV_SECRET_PASSWORD": "postgres",
+            "DBT_HOST": "34.27.133.53",
+            "DBT_SCHEMA": "dbt-store",
+            "DBT_PORT": "5432",
         }
     },
 ) as dag:
