@@ -24,7 +24,7 @@ with DAG(
         "env": {
             "DBT_USER": "postgres",
             "DBT_ENV_SECRET_PASSWORD": "postgres",
-            "DBT_HOST": "34.27.133.53",
+            "DBT_HOST": "xxx.xxx.xxx",
             "DBT_SCHEMA": "dbt-store",
             "DBT_PORT": "5432",
         }
